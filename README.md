@@ -1,4 +1,4 @@
-# distance-scope-trait
+# Laravel distance scope trait
 Distance scope trait to Laravel models
 
 ## Installation
