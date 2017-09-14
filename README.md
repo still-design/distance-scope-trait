@@ -41,7 +41,8 @@ class ExamplaeController extends Model
     public function index
     (
         ...
-        $exampleModelItems = ExampleModel::distance($lattitude, $longitue, 100)->get(); // all items in the given coordinates, within 100 kilometers
+        $exampleModelItems = ExampleModel::distance($lattitude, $longitue, 100)->get();
+        // all items in the given coordinates, within 100 kilometers
         ...
     )
 
