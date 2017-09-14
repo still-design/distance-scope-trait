@@ -13,12 +13,10 @@ In the model
 
 ```
 <?php
-use Stilldesign\DistanceScopeTrait\DistanceScopeTrait;
-```
 
-In the code
-```
-<?php
+namespace App\Models;
+
+use Stilldesign\DistanceScopeTrait\DistanceScopeTrait;
 
 class ExampleModel extends Model
 {
@@ -26,4 +24,27 @@ class ExampleModel extends Model
 use DistanceScopeTrait;
 
 ...
+}
+```
+
+In The controller
+
+
+```
+<?php
+
+use App\Models\ExampleModel;
+
+class ExamplaeController extends Model
+{
+
+    public function index
+    (
+        ...
+        $exampleModelItems = ExampleModel::distance($lattitude, $longitue, 100);
+        ...
+    )
+
+...
+}
 ```
