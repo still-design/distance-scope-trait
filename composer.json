@@ -1,0 +1,16 @@
+{
+    "name": "stilldesign/distance-scope-trait",
+    "description": "Distance scope trait for Laravel models",
+    "type": "trait",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Attila Kerkai",
+            "email": "attila.kerkai@stilldesign.hu"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/database": "5.4.*"
+    }
+}
