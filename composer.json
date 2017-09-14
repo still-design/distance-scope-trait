@@ -3,6 +3,8 @@
     "description": "Distance scope trait for Laravel models",
     "type": "trait",
     "license": "MIT",
+    "version": "0.0.1",
+    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "Attila Kerkai",

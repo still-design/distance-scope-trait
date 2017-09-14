@@ -35,7 +35,7 @@ In The controller
 
 use App\Models\ExampleModel;
 
-class ExamplaeController extends Model
+class ExampleController extends Model
 {
 
     public function index
